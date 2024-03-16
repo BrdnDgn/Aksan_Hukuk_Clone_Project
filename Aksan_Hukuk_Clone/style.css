@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Hero Image */
+.hero-image {
+  background-image: linear-gradient(#020a20b1, #020a20b1),
+    url(/Aksan_Hukuk_Clone/img/hero.jpg);
+  height: 320px;
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.navbar-brand img {
+  width: 236px;
+}
+.nav-item a {
+  font-size: 14px;
+}
+.nav-item {
+  margin-inline: 10px;
+}
+.hero-text {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+  letter-spacing: 6px;
+}
+.liste li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+.liste li a {
+  text-decoration: none;
+  color: #a1a1a1;
+}
+.liste li a:hover {
+  text-decoration: underline;
+}
+.liste .secilen a {
+  color: #990033;
+}
+.cizgi {
+  width: 70%;
+  margin-top: 30px;
+  border: 1px solid black;
+}
+.card {
+  background: #020a20;
+  border: none;
+  text-align: center;
+  width: 100%;
+}
+.card img {
+  opacity: 0.8;
+}
+.card .card-body {
+  background-color: white;
+}
+.card h5 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  margin: 5px 0 20px;
+}
+.card p {
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.neos {
+  width: 60%;
+}
+
+/* responsive */
+@media screen and (max-width: 1250px) {
+  .nav-item {
+    margin-inline: 4px;
+  }
+  .nav-item a {
+    font-size: 13px;
+  }
+  .navbar-brand img {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar-brand img {
+    width: 236px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-text {
+    top: 50%;
+  }
+  .liste {
+    text-align: center;
+  }
+  .cizgi {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .hero-image {
+    background-size: 200%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .hero-image {
+    background-size: 250%;
+  }
+}
+input {
+  border: none;
+  border-bottom: 1px solid #a1a1a1;
+  padding: 8px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+select {
+  color: #5a5a5a;
+  border: none;
+  border-bottom: 1px solid #a1a1a1;
+  padding: 8px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.ara {
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid black;
+  margin-top: 5px;
+  width: 75px;
+}
+.ara:hover {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+}
+.alfabe h5 {
+  color: red;
+}
+.alfabe {
+  margin-top: 45px;
+}
+.alfabe a {
+  text-decoration: none;
+  padding: 3px;
+  color: black;
+  font-weight: 200;
+}
+.alfabe a.active {
+  font-weight: bold;
+  color: red;
+}
+.alt {
+  color: red;
+}
+.cizgi2 {
+  width: 70%;
+  color: black;
+}
